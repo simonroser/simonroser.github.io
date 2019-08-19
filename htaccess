@@ -1,5 +1,4 @@
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} !^www\.               [NC]
-RewriteCond %{HTTP_HOST} ^([^.]+\.[a-z]{2,6})$ [NC]
-RewriteRule ^(.*)$       http://www.%1/$1      [R=301,L]
+RewriteCond %{HTTP_HOST} !^domain\.tld$       [NC]
+RewriteRule ^(.*)$       http://domain.tld/$1 [R=301,L]
