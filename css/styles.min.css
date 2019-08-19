@@ -84,11 +84,11 @@ li {
 }
 
 .white-layer {
-    background: rgba(255, 255, 255, .9)
+    background: rgba(255, 255, 255, .5)
 }
 
 .dark-layer {
-    background: rgba(0, 0, 0, .2)
+    background: rgba(0, 0, 0, 1)
 }
 
 .section-title {
